@@ -12,8 +12,8 @@ html, body {
 
 h1 {
   /*font-size: 2px;*/
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700px;
+  font-family: Roboto:thin;
+  font-weight: bold;
 }
 
 .profile-picture {
@@ -36,7 +36,9 @@ s
 
 
 p {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 300px;
+  color: black;
 
 }
 
@@ -157,6 +159,7 @@ a:hover, a:visited, a:link, a:active
 
 p1 {
   font-size: 12px;
+  font-weight: bold;
 }
 
 .grid-container {
