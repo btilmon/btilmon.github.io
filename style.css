@@ -1,0 +1,155 @@
+html, body {
+/*  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+.profile-picture {
+  border-radius: 50%;
+
+}
+
+.container {
+s
+    display: table;
+    max-width: 800px;
+    margin-left:auto; 
+    margin-right:auto;
+    font-size: 14px;
+    padding-top: 50px;
+
+}
+
+
+.left, .right {
+    display: table-cell
+}
+.left {
+    width: 75px;
+    text-align: left;
+
+}
+.right {
+
+    vertical-align: top;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.head_left, .head_right {
+    display: table-cell
+}
+.head_left {
+    width: 250px;
+    text-align: left;
+    vertical-align: top;
+
+}
+.head_right {
+
+    vertical-align: top;
+    padding-left: 25px;
+    text-align: left;
+}
+
+.news_container {
+  
+    max-width: 1200px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.news_left {
+    max-width: 1200px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.ul{
+  list-style-type: circle;
+  border-bottom: 1px solid;
+}
+
+
+hr { 
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.navbar {
+  max-width: 800px;
+  overflow: hidden;
+  background-color: white;
+  
+  top: 0;
+  width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: black;
+  color: white;
+  /*border-bottom: 3px solid black;*/
+}
+
+.navbar a.active {
+  /*border-bottom: 3px solid black;*/
+}
+
+.header {
+  padding: 60px;
+  text-align: left;
+  
+  color: black;
+  font-size: 14px;
+  
+}
+
+/*Removes underline from links*/
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+p1 {
+  font-size: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  /*background-color: #2196F3;*/
+/*  padding: 10px;*/
+
+}
+.grid-item {
+/*  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);*/
+/*  padding: 20px;
+  font-size: 14px;*/
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
