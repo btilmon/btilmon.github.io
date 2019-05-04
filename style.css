@@ -172,3 +172,7 @@ p1 {
   margin-bottom: 30px;
   margin-top: 30px;
 }
+
+img.a {
+  max-width: 75%;
+}
