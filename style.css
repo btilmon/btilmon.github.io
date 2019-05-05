@@ -24,7 +24,7 @@ h1 {
 .container {
 s
     display: table;
-    max-width: 800px;
+    max-width: 900px;
     margin-left:auto; 
     margin-right:auto;
     
@@ -111,7 +111,7 @@ hr {
 } 
 
 .navbar {
-  max-width: 800px;
+  max-width: 900px;
   overflow: hidden;
   background-color: white;
   
