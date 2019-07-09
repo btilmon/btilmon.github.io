@@ -10,9 +10,9 @@ html, body {
 }
 
 
-h1 {
+h2 {
   /*font-size: 2px;*/
-  font-family: 'Roboto',light;
+  font-family: 'Roboto',sans-serif;
   font-weight: bold;
 }
 
