@@ -193,8 +193,7 @@ p1 {
 }
 
 img {
-  max-width: 120%;
-  max-height: 120%;
-  width: auto;
-  height: auto;
+  /*max-width: 75%;*/
+  width: 100px;
+  height: 85px;
 }
