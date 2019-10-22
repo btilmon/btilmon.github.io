@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:light" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> -->
-  <!-- <link rel="shortcut icon" href="img/pics/human.png"/> -->
+  <link rel="shortcut icon" href="img/pics/human.png"/>
 </head>
 
 <body>
@@ -28,15 +28,15 @@
 	</div> -->
 
 
-    <h2>Brevin Tilmon</h2>
+    <h1>Brevin Tilmon</h1>
 
 
-<!-- 	<h1></h1>
+	<h1></h1>
     <div class="left">
     	<img class="profile-picture" src="img/prof4.png" width="100" height="300" />
     </div>
 
-    <div class="right"> -->
+    <div class="right">
 
     	
 
@@ -47,7 +47,7 @@
     University of Florida <br>
     <a href="http://focus.ece.ufl.edu/">FOCUS Lab</a> <br>
 	<a href="mailto:btilmon@ufl.edu">btilmon@ufl.edu</a> <br>
-	<!-- <a href="CV2019.pdf">CV</a> -->
+	<a href="CV2019.pdf">CV</a>
     		
     	
     </div>
@@ -56,14 +56,14 @@
 
 <!-- Publications -->
 
-<!-- <div class="container">
+<div class="container">
     <h2>Bio</h2>
     <div class="paragraph">
-         Hello, this website is to centralize my work on computational photography and computer vision.  
-         I received a B.S.E. in Engineering Physics from Murray State University where I was an electrical engineering intern at <a href="https://www.berryglobal.com/">Berry Global</a>, a research assistant in the NDE Lab with <a href="http://campus.murraystate.edu/academic/ndel/People/People.htm">Dr. Gheorge Bunget</a> and a research assistant in the FOCUS Lab during the <a href="https://www.eng.ufl.edu/surf/">SURF Program</a>.
+         I am a Ph.D. student in the FOCUS Lab at the University of Florida with Dr. Sanjeev Koppal. My interests are computational photography, machine learning, computer vision, and robotics. I finished my undergrad in 2019 at Murray State University where I received a B.S.E. in Engineering Physics.
+         <!-- I received a B.S.E. in Engineering Physics from Murray State University where I was an electrical engineering intern at <a href="https://www.berryglobal.com/">Berry Global</a>, a research assistant in the NDE Lab with <a href="http://campus.murraystate.edu/academic/ndel/People/People.htm">Dr. Gheorge Bunget</a> and a research assistant in the FOCUS Lab during the <a href="https://www.eng.ufl.edu/surf/">SURF Program</a>. -->
     </div>
     
-</div> -->
+</div>
 
 <div class="container">
 	<h2>Publications</h2>
