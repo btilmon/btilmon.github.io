@@ -9,6 +9,10 @@ body {
   /*font-family: 'Roboto', sans-serif;*/
   /*font-family: 'Nunito', sans-serif;*/
   font-family: sans-serif;
+  /*background-image: url("img/background/tan.jpg");*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   /*font-weight: bolder;*/
   /*font-size: 16px;*/
 }
@@ -21,9 +25,10 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   /*font-family: 'Roboto',sans-serif;*/
   font-weight: 16px;
+  font-style: italic;
 }
 
 h3 {
