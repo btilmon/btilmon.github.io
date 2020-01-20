@@ -42,12 +42,12 @@
 
 <!--     	<p>Prior to joining the FOCUS Lab, I received a B.S.E. in Engineering Physics from Murray State University, where I was a Research Assistant in the <a href="http://campus.murraystate.edu/academic/ndel/">NDE Lab</a> under Prof. Gheorge Bunget. During undergrad I interned at the FOCUS Lab during the <a href="https://www.eng.ufl.edu/surf/">SURF Program</a>, and <a href="https://www.berryglobal.com/">Berry Global</a> as an Electrical Engineering Intern.</p> -->
 
-    PhD Student - Research Assistant<br>
+    PhD Student<br>
     Department of Electrical and Computer Engineering <br>
     University of Florida <br>
     <a href="http://focus.ece.ufl.edu/">FOCUS Lab</a> <br>
 	<a href="mailto:btilmon@ufl.edu">btilmon@ufl.edu</a> <br>
-	<!-- <a href="CV2019.pdf">CV</a> -->
+	<a href="CV.pdf">CV</a>
     		
     	
     </div>
@@ -65,22 +65,53 @@
     
 </div> -->
 
+
 <div class="container">
-	<h2>Publications</h2>
+    <h2>Research and Development Interests</h2> 
+
+    <hr>
     
-	
+    Computational photography, computer vision, imaging hardware and software architecture
+
+    <br>
+
+    <!-- 
     <div class="left">
-        <img  src="pubs/flyingdot.png" width="175" height="175" />
+        <img  src="img/robot.png" width="200" height="175" />
     </div>
 
     <div class="right">
-         <b>Design and Calibration of a Fast Flying-Dot Projector for Dynamic Light Transport Acquisition</b>  <br>
+        <h3>IEEE Robotics Competition</h3>
+
+        <h4><i>Hardware Competition - IEEE SoutheastCon 2019</i></h4>
+
+        <h4>Used lidar and two cameras to autonomously navigate a course. We (IEEE Robotics Club at MSU) placed 12th out of 46 schools. </h4>
+
+            <h4><a href="https://drive.google.com/open?id=1Nv7W-boNWKA6p69vr6NaCU71pYvb4EZj"><b>Video</b></a></h4>
+        
+    </div> -->
+    <br>
+</div>
+    
+
+
+<div class="container">
+	<h2>Publications</h2>
+    
+    <hr>
+	
+    <div class="left">
+        <img  src="pubs/flyingdot.png" />
+    </div>
+
+    <div class="right">
+         <h3>Design and Calibration of a Fast Flying-Dot Projector for Dynamic Light Transport Acquisition</h3>  
       
 
-        <font size="5">Kristofer Henderson, Xiaomeng Liu, Justin Folden, <b>Brevin Tilmon</b>, Suren Jayasuriya, and Sanjeev Koppal </font><br>
+        <h5>Kristofer Henderson, Xiaomeng Liu, Justin Folden, <b>Brevin Tilmon</b>, Suren Jayasuriya, and Sanjeev Koppal </h5>
 
-        <i>IEEE Transactions on Computational Imaging 2019</i> <br>
-        <b>PDF</b> (coming soon)
+        <h4><i>Transactions on Computational Imaging 2020</i></h4> 
+        <h4><a href="pubs/tci20.pdf"><b>PDF</b></a> </h4>
     </div>
 
     <br>
@@ -89,34 +120,40 @@
     </div>
 
     <div class="right">
-    	<b>Novel Approach of Wavelet Analysis for Nonlinear Ultrasonic Measurements and Fatigue Assessment of Jet Engine Components</b> <br>
+    	<h3>Novel Approach of Wavelet Analysis for Nonlinear Ultrasonic Measurements and Fatigue Assessment of Jet Engine Components</h3>
 
 
-        Gheorghe Bunget, <b>Brevin Tilmon</b>, Andrew Yee, Dylan Stewart, James Rogers, Matthew Webster, Kevin Farinholt, Fritz Friedersdorf, Marc Pepi, and Anindya Ghoshal. <br>
+        <h5>Gheorghe Bunget, <b>Brevin Tilmon</b>, Andrew Yee, Dylan Stewart, James Rogers, Matthew Webster, Kevin Farinholt, Fritz Friedersdorf, Marc Pepi, and Anindya Ghoshal. </h5>
 
-    	<i>American Institute of Physics 2018</i> <br>
-        <a href="pubs/pub1.pdf"><b>PDF</b></a> <br>
+    	<h4><i>American Institute of Physics 2018</i></h4>
+        <h4><a href="pubs/pub1.pdf"><b>PDF</b></a> </h4>
     	
 
     </div>
+
+    <br>
+
+    
+
 </div>
 
 <div class="container">
     <h2>Projects</h2> 
     
+    <hr>
     
     <div class="left">
     	<img  src="img/robot.png" width="200" height="175" />
     </div>
 
     <div class="right">
-    	<b>IEEE Robotics Competition</b><br>
+    	<h3>IEEE Robotics Competition</h3>
 
-    	<i>Hardware Competition - IEEE SoutheastCon 2019</i> <br>
+    	<h4><i>Hardware Competition - IEEE SoutheastCon 2019</i></h4>
 
-    	Used lidar and two cameras to autonomously navigate a course. We (IEEE Robotics Club at MSU) placed 12th out of 46 schools. 
-    <br>
-            <a href="https://drive.google.com/open?id=1Nv7W-boNWKA6p69vr6NaCU71pYvb4EZj"><b>Video</b></a><br>
+    	<h4>Used lidar and two cameras to autonomously navigate a course. We (IEEE Robotics Club at MSU) placed 12th out of 46 schools. </h4>
+
+            <h4><a href="https://drive.google.com/open?id=1Nv7W-boNWKA6p69vr6NaCU71pYvb4EZj"><b>Video</b></a></h4>
         
     </div>
     <br>
