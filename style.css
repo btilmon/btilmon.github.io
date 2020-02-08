@@ -13,6 +13,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  font-style: thin;
+  color: #484848;
   /*font-weight: bolder;*/
   /*font-size: 16px;*/
 }
@@ -25,43 +27,50 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 20px;
   /*font-family: 'Roboto',sans-serif;*/
   font-weight: 13px;
   font-style: bolder;
   margin: 0;
   padding: 0;
+  color: #236B8E;
 }
 
 h6 {
-  font-size: 22px;
+  font-size: 16px;
   /*font-family: 'Roboto',sans-serif;*/
-  font-weight: 13px;
-  font-style: bolder;
+  /*font-weight: 10px;*/
+  /*font-style: bolder;*/
   text-indent: 0px;
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
+  color: #236B8E;
+
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bolder;
   margin:0;
+  /*margin-bottom: 5px;*/
   padding:1px;
+  color: #696969;
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 11px;
   font-weight: normal;
   margin:0;
   padding:1px;
+  color: #696969;
 }
 
 h5 {
-   font-size: 14px;
+   font-size: 11px;
    font-weight: normal;
    margin:0;
    padding:1px;
+   color: #696969;
 }
 
 .profile-picture {
@@ -112,6 +121,7 @@ s
 
     /*vertical-align: bottom;*/
     padding-left: 15px;
+    height: .75%;
     text-align: left;
         /*padding-bottom: 40px*/
 }
@@ -134,11 +144,10 @@ s
     text-align: left;
 }
 
-.news_container {
+#about_container {
   
-    max-width: 1200px;
-    margin-left:auto; 
-    margin-right:auto;
+    max-width: 400px;
+    float: left;
 }
 
 .news_left {
@@ -152,15 +161,18 @@ s
   border-bottom: 1px solid;
 }
 
+div.a {
+  line-height: 2.5;
+}
+
 
 hr { 
-  display: block;
-  margin-top: 0em;
-  margin-bottom: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #BEBEBE; /* old IE */
+  background-color: #BEBEBE; /* Modern Browsers */
 } 
 
 .navbar {
@@ -235,8 +247,8 @@ p1 {
 
 img {
   
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .bg {
