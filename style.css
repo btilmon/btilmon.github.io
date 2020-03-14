@@ -14,7 +14,7 @@ body {
   background-position: center;
   background-size: cover;
   font-style: thin;
-  color: #484848;
+  /*color: #484848;*/
   /*font-weight: bolder;*/
   /*font-size: 16px;*/
 }
@@ -37,19 +37,19 @@ h2 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 20px;
   /*font-family: 'Roboto',sans-serif;*/
   /*font-weight: 10px;*/
   /*font-style: bolder;*/
   text-indent: 0px;
   margin: 0px;
   padding: 0px;
-  color: #236B8E;
+  /*color: #236B8E;*/
 
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: bolder;
   margin:0;
   /*margin-bottom: 5px;*/
@@ -58,19 +58,19 @@ h3 {
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: normal;
   margin:0;
   padding:1px;
-  color: #696969;
+  /*color: #696969;*/
 }
 
 h5 {
-   font-size: 15px;
-   font-weight: bolder;
+   font-size: 13px;
+   font-weight: normal;
    margin:0;
    padding:1px;
-   color: #696969;
+   /*color: #696969;*/
 }
 
 .profile-picture {
@@ -83,7 +83,7 @@ h5 {
 .container {
 s
     display: table;
-    max-width: 800px;
+    max-width: 600px;
     margin-left:auto; 
     margin-right:auto;
     
@@ -146,7 +146,7 @@ s
 
 #about_container {
   
-    max-width: 400px;
+    max-width: 500px;
     float: left;
 }
 
@@ -157,7 +157,7 @@ s
 }
 
 .ul{
-  list-style-type: circle;
+  list-style-type:disc;
   border-bottom: 1px solid;
 }
 
