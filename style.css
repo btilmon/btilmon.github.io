@@ -58,7 +58,7 @@ h3 {
 }
 
 h4 {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: normal;
   margin:0;
   padding:1px;
@@ -66,7 +66,7 @@ h4 {
 }
 
 h5 {
-   font-size: 13px;
+   font-size: 15px;
    font-weight: normal;
    margin:0;
    padding:1px;
@@ -83,7 +83,7 @@ h5 {
 .container {
 s
     display: table;
-    max-width: 600px;
+    max-width: 800px;
     margin-left:auto; 
     margin-right:auto;
     
@@ -157,6 +157,10 @@ s
 }
 
 .ul{
+  list-style-type:disc;
+  border-bottom: 1px solid;
+}
+.ol{
   list-style-type:disc;
   border-bottom: 1px solid;
 }
