@@ -33,7 +33,7 @@ h2 {
   font-style: bolder;
   margin: 0;
   padding: 0;
-  color: #236B8E;
+  /*color: #236B8E;*/
 }
 
 h6 {
@@ -223,7 +223,7 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
     /*font-weight: bold;*/
-    color: SteelBlue;
+    color:  #1E90FF;
 
 }
 
