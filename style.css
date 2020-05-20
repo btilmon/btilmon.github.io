@@ -251,8 +251,9 @@ p1 {
 
 img {
   
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
+  padding-right: 5px;
   /*border:1px solid #236B8E;*/
 }
 
