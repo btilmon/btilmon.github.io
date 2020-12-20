@@ -101,7 +101,7 @@ h8 {
 
 .container_intro {
 
-    display: table;
+    /*display: table;*/
     max-width: 700px;
     padding-top: 25px;
     margin-left: auto;
