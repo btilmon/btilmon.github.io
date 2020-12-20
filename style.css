@@ -141,6 +141,18 @@ s
 }
 
 
+ .iconDetails {
+ margin-left:0%;
+float:left; 
+height:100px;
+width:170px; 
+} 
+
+.container2 {
+    max-width:100%;
+    height:auto;
+    padding-top:2%;
+}
 
 
 
@@ -294,7 +306,7 @@ img {
   width: 200px;
   height: 200px;
   padding-right: 5px;
-  border-radius: 30%;
+/*  border-radius: 30%;*/
 
   /*border:1px solid #236B8E;*/
 }
