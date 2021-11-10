@@ -15,6 +15,36 @@
   <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> -->
   <link rel="shortcut icon" href=""/> 
 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding-right: 2px;
+  padding-bottom: 25px;
+  height: 100%;
+}
+
+.left {
+  width: 15%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
 </head>
 
 
@@ -25,14 +55,14 @@
 <div class="container" >  
   <div align="left">
 	  <div>
-	    <h6>Brevin Tilmon</h6> <br> 
-      <h5><a href="https://scholar.google.com/citations?user=-bgfLW4AAAAJ&hl=en">Google Scholar</a> | <a href="cv_Brevin_Tilmon.pdf">CV</a> | <a href="https://github.com/btilmon">Github</a> | <a href="https://www.linkedin.com/in/brevin-tilmon-220927129/">LinkedIn</a> | <a href="mailto:btilmon@ufl.edu">Email</a> </h5>
+	    <h6 class="normal">Brevin Tilmon</h6> <br> 
+      <h5><a href="cv_Brevin_Tilmon.pdf">CV</a> | <a href="https://scholar.google.com/citations?user=-bgfLW4AAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/btilmon">Github</a> | <a href="https://www.linkedin.com/in/brevin-tilmon-220927129/">LinkedIn</a> | <a href="mailto:btilmon@ufl.edu">Email</a> </h5>
     </div>
   </div>
 <br>
 <hr>
 <br>
-<h5>I am an engineer and researcher experienced in computational photography, computer vision and machine learning. I am currently a research intern at <a href="https://tech.fb.com/ar-vr/">Meta</a> working on computer vision and machine learning for augmented reality systems. Previously, I was a research intern at <a href="https://ti.arc.nasa.gov/tech/asr/groups/intelligent-robotics/">NASA</a> where I worked on computational imaging, 3D computer vision and computer graphics. I am working towards my Ph.D. in the <a href="https://focus.ece.ufl.edu/">FOCUS Lab</a> at the University of Florida.</h5>
+<h5>I am an engineer and researcher experienced in computer vision, computational imaging, computer graphics and machine learning. I am currently a research intern at <a href="https://about.facebook.com/realitylabs/">Meta</a> working on computer vision and machine learning for augmented reality systems. Previously, I was a research intern at <a href="https://ti.arc.nasa.gov/tech/asr/groups/intelligent-robotics/">NASA</a> where I worked on computational imaging, 3D computer vision and computer graphics. I am also a Ph.D. student in the <a href="https://focus.ece.ufl.edu/">FOCUS Lab</a> at the University of Florida.</h5>
 
 
 
@@ -47,48 +77,70 @@
 <h1>Publications</h1>
 
 
-      <div style='margin-left:0px;'>
-        <h8>SaccadeCam: Adaptive Visual Attention for Monocular Depth Sensing</h8> <br>
-        <h7>Brevin Tilmon and Sanjeev Koppal</h7> <br>
-        <b><h7>International Conference on Computer Vision (ICCV), 2021</h7></h7></b>
-        <h4>[<a href="https://arxiv.org/abs/2103.12981">Paper</a>] [<a href="https://focus.ece.ufl.edu/saccadecam/">Webpage</a>] [<a href="https://github.com/btilmon/saccadeCam">Code</a>]</h4>
-      </div>  
+ 
+        <div class="row">
+          <div class="column left">
+            <img src="img/saccadecam.png" >
+          </div>
+          <div class="column right" >
+            <h8>SaccadeCam: Adaptive Visual Attention for Monocular Depth Sensing</h8> <br>
+            <h7>Brevin Tilmon and Sanjeev Koppal</h7> <br>
+            <b><h7>International Conference on Computer Vision (ICCV), 2021</h7></h7></b>
+            <h4>[<a href="https://arxiv.org/abs/2103.12981">Paper</a>] [<a href="https://focus.ece.ufl.edu/saccadecam/">Webpage</a>] [<a href="https://github.com/btilmon/saccadeCam">Code</a>]</h4>
+          </div>
+        </div>
+      
+ 
+  <div class="row">
+    <div class="column left">
+      <img src="img/foveacam.png" >
+    </div>
+    <div class="column right" >
+      <h8>Fast Foveating Cameras for Dense Adaptive Resolution</h8> <br>
+      <h7>Brevin Tilmon, Eakta Jain, Silvia Ferrari, Sanjeev Koppal</h7> <br>
+      <b>
+      <h7>Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2021</h7></h7> <br>
+      <h7>International Conference on Computational Photography (ICCP), 2020</h7></h7>
+      </b>
+      <h4>[<a href="pubs/FoveaCam_PAMI.pdf">Paper</a>] [<a href="https://focus.ece.ufl.edu/foveating-cameras/">Webpage</a>] [<a href="https://github.com/btilmon/foveaCam_ICCP">Code</a>]
+      
+      </h4>
+    </div>
+  </div>
 
-<br>
-      <div style='margin-left:0px;'>
-        <h8>Fast Foveating Cameras for Dense Adaptive Resolution</h8> <br>
-        <h7>Brevin Tilmon, Eakta Jain, Silvia Ferrari, Sanjeev Koppal</h7> <br>
-	<b>
-        <h7>Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2021</h7></h7> <br>
-        <h7>International Conference on Computational Photography (ICCP), 2020</h7></h7>
-</b>
-        <h4>[<a href="pubs/FoveaCam_PAMI.pdf">Paper</a>] [<a href="https://focus.ece.ufl.edu/foveating-cameras/">Webpage</a>] [<a href="https://github.com/btilmon/foveaCam_ICCP">Code</a>]
-        
-        </h4>
-      </div>  
 
-<br>
+ 
+  <div class="row">
+    <div class="column left">
+      <img src="img/fovLidar.png" >
+    </div>
+    <div class="column right" >
+      <h8>Towards a MEMS-based Adaptive LIDAR</h8><br>
+      <h7>Francesco Pittaluga, Zaid Tasneem, Justin Folden, Brevin Tilmon, Ayan Chakrabarti, Sanjeev Koppal</h7><br>
+      <b><h7>International Conference on 3D Vision (3DV), 2020</h7></b>
+      <h4>[<a href="https://arxiv.org/pdf/2003.09545.pdf">Paper</a>] [<a href="https://www.francescopittaluga.com/adaptivelidar/index.html">Webpage</a>]</h4>
+    </div>
+  </div>
 
-  <div style='margin-left:0px;'>
-        <h8>Towards a MEMS-based Adaptive LIDAR</h8><br>
-        <h7>Francesco Pittaluga, Zaid Tasneem, Justin Folden, Brevin Tilmon, Ayan Chakrabarti, Sanjeev Koppal</h7><br>
-        <b><h7>International Conference on 3D Vision (3DV), 2020</h7></b>
-        <h4>[<a href="https://arxiv.org/pdf/2003.09545.pdf">Paper</a>] [<a href="https://www.francescopittaluga.com/adaptivelidar/index.html">Webpage</a>]</h4>
-      </div>  
-    
-<br>
+  
+ 
+  <div class="row">
+    <div class="column left">
+      <img src="img/flyingDot.png" >
+    </div>
+    <div class="column right" >
+      <h8>Design and Calibration of a Fast Flying-Dot Projector for Dynamic Light Transport Acquisition</h8><br>
+      <h7>Kristofer Henderson, Xiaomeng Liu, Justin Folden, Brevin Tilmon, Suren Jayasuriya, Sanjeev Koppal</h7><br>
+      <b><h7>Transactions on Computational Imaging 2020</h7></b>
+      <h4>[<a href="pubs/tci20.pdf">Paper</a>] [<a href="https://focus.ece.ufl.edu/mems-projection/">Webpage</a>] </h4>
+    </div>
 
-  <div style='margin-left:0px;'>
-        <h8>Design and Calibration of a Fast Flying-Dot Projector for Dynamic Light Transport Acquisition</h8><br>
-        <h7>Kristofer Henderson, Xiaomeng Liu, Justin Folden, Brevin Tilmon, Suren Jayasuriya, Sanjeev Koppal</h7><br>
-        <b><h7>Transactions on Computational Imaging 2020</h7></b>
-        <h4>[<a href="pubs/tci20.pdf">Paper</a>] [<a href="https://focus.ece.ufl.edu/mems-projection/">Webpage</a>] </h4>
-      </div>  
+</div> 
 
 </div>
 
 
-<div class="container", padding-top=>
+<div class="container">
 
   <h1>Datasets</h1>
         <div style='margin-left:0px;'>
