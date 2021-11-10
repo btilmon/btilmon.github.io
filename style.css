@@ -23,14 +23,14 @@ body {
 img {
   /* height: 100%; */
   width: 100%;
-  object-fit: contain;
+  object-fit: fill;
 }
 
  /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
   width: 10%;
-  padding: 5px;
+  /* padding: 5px; */
 }
 
 /* Clear floats after image containers */
