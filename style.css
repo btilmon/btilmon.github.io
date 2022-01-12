@@ -58,7 +58,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 35px;
   /*font-family: 'Roboto',sans-serif;*/
   font-weight: 13px;
   font-style: bolder;
@@ -152,6 +152,18 @@ h8 {
     /*vertical-align: ;*/
 
 }
+
+.container_blog {
+
+  /*display: table;*/
+  max-width: 900px; 
+  /*width: 40%;*/
+  margin-left:auto; 
+  margin-right:auto;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  /*vertical-align: ;*/
+
 
 .paragraph {
   max-width: 800px;
