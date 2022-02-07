@@ -53,8 +53,10 @@ img {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: normal;
+  letter-spacing: 1px;
+
 }
 
 h2 {
@@ -68,14 +70,15 @@ h2 {
 }
 
 h6 {
-  font-size: 50px;
+  font-size: 30px;
   /*font-family: 'Roboto',sans-serif;*/
   font-weight: normal;
   /*font-style: bolder;*/
   text-indent: 0px;
   margin: 0px;
   padding: 0px;
-  letter-spacing: -1.5px;
+  letter-spacing: 1px;
+  /* word-spacing: 1px; */
   /*color: #236B8E;*/
 
 }
@@ -90,7 +93,7 @@ h3 {
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight:  lighter;
   margin:0;
   padding:1px;
@@ -98,7 +101,7 @@ h4 {
 }
 
 h5 {
-   font-size: 25px;
+   font-size: 20px;
    font-weight: lighter;
    margin:0;
    padding:1px;
@@ -107,7 +110,7 @@ h5 {
 
 
 h7 {
-   font-size: 22px;
+   font-size: 20px;
    margin:0;
    padding:1px;
    font-weight: lighter;
@@ -116,7 +119,7 @@ h7 {
 
 
 h8 {
-   font-size: 24px;
+   font-size: 20px;
    font_weight: lighter; 
    margin:0;
    padding:0px;
