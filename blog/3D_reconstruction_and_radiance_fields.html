@@ -86,9 +86,6 @@ a { text-decoration: none; }
             <br><br><br>
 
 
-
-            <br><br><br>
-
             <h8><b>3D Reconstruction Background</b></h8> <br>
             Two end games of computer vision and graphics are obtaining a constantly updated open source photorealistic 3D reconstruction (mapping) of the world and a fast method for high quality object capture. High quality world maps enable self-driving cars and drones to localize themselves against the map, phones/VR/AR devices to localize themselves and project realistic graphics, and the development of motion planning based on ground truth from the existing map. High quality object capture promises to revolutionize several industries and decentralize technology. In a hypothetical future, as the real world is observed by our cameras, the images could be sent to the cloud and the world map continuously updated. At the same time, the world map could be continuously refined with <a href="https://en.wikipedia.org/wiki/Bundle_adjustment">bundle adjustment</a>. Google, among the computer vision and graphics communities, has been thinking about this since the early 2000’s with Google Street View and Waymo cars. I assume Google uses Street View to localize their cars and for ground truthing against the world map. They drive cars around with a sensor suite, and run Visual <a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping">SLAM</a> (aka structure from motion) on the world to give us street view, <a href="http://ceres-solver.org/users.html">ceres solver</a> is what they use to optimize the world map with bundle adjustment. Visual SLAM gives us a RGBD point cloud that is meshed together with techniques such as <a href="https://hhoppe.com/poissonrecon.pdf">Poisson Reconstruction</a>, this meshed representation is the map.
 
