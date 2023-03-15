@@ -44,13 +44,88 @@ img {
   display: table;
 } 
 
-.center {
-    text-align: center;
-    /*vertical-align: middle;*/
-  
-  /*width: 20%;
-  padding: 10px;*/
+.cvprSecTitle {
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  line-height: 1;
 }
+.cvprSecBody {
+  text-align: left;
+  font-weight: normal;
+  color: black;
+  font-size: 18px;
+  text-indent: 40px;
+
+}
+
+.cvprTitle {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    line-height: 1;
+}
+
+.cvprConf {
+  text-align: center;
+  font-weight: normal;
+  font-size: 24px;
+  color: black;
+  line-height: 1;
+
+}
+
+.authors {
+  text-align: center;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+  line-height: 22px;
+}
+
+.affil {
+  text-align: center;
+  font-weight: normal;
+  font-size: 12px;
+  color: black;
+  line-height: 18px;
+  margin-top: 0em;
+
+}
+
+.paper-image {
+  border: 1px solid black;
+  width: 120px;
+  height: 144px;
+  margin: auto;
+  display: block;
+
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  display: inline-block;
+  border: 1px solid black;
+  width: 120px;
+  height: 144px;
+  margin: 0 10px; /* adjust this for space between the images */
+}
+
+figure {
+  display: inline-block;
+  margin: 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 14px;
+  /* color: black; */
+}
+
+
 
 h1 {
   font-size: 30px;
@@ -142,6 +217,19 @@ h8 {
 
 }
 
+.containerCVPR {
+
+  /*display: table;*/
+  max-width: 800px; 
+  /* width: 80%; */
+  margin-left:auto; 
+  margin-right:auto;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  /*vertical-align: ;*/
+  color:#36454F
+
+}
 
 .container {
 
