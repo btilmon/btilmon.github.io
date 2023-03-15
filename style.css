@@ -67,6 +67,8 @@ img {
     margin: 0px;
     padding: 0px;
     letter-spacing: 1px;
+    margin-bottom: -15px;
+
 }
 
 .cvprConf {
@@ -76,6 +78,7 @@ img {
   color: black;
 
   margin: 0px;
+  margin-bottom: -15px;
   padding: 0px;
   letter-spacing: 0px;
 
