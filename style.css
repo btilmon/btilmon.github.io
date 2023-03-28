@@ -55,7 +55,7 @@ img {
   font-weight: normal;
   color: black;
   font-size: 16px;
-  text-indent: 40px;
+  text-indent: 0px;
 
 }
 
@@ -112,6 +112,25 @@ img {
   display: block;
 
 }
+
+.sensor-image {
+ 
+  width: 75%;
+  /* display: block; */
+}
+
+.hw-image {
+ 
+  width: 100%;
+  /* display: block; */
+}
+
+
+video {
+  display: block;
+  margin: 50px auto;
+}
+
 
 .image-container {
   text-align: center;
