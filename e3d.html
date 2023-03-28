@@ -217,11 +217,17 @@ a:hover{
 
 
 <br> <br> 
-<h1 class="cvprSecTitle">Comparison Results</h1>
-<h3 class="cvprSecBody">Below we show comparisons of our adaptive sensor versus line scanning and full frame sensors. Notice the dots are much brighter for the adaptive sensor which results in better active stereo depth performance. We also show outdoor results under direct sunlight. Despite the very strong ambient light from the sun, we are able to adaptively reconstruct depth with our sensor.</h3>
+<h1 class="cvprSecTitle">Results</h1>
+<h3 class="cvprSecBody">Below we show comparisons of our adaptive sensor versus line scanning and full frame sensors. Notice the dots are much brighter for the adaptive sensor which results in better active stereo depth performance. We also show outdoor results under direct sunlight. Despite the very strong ambient light from the sun, we are able to adaptively reconstruct depth with our sensor. We can rely on passive stereo to reconstruct depth for the majority of the scene, and then fill in remaining missing depths in a small ROI with our adaptive sensor.</h3>
 
 <div style="text-align: center;">
-  <img src="img/resultsZoomCrop.png" alt="Image description">
+  <img src="img/resultsZoomCrop.png" class="hw-image" alt="Image description">
+</div>
+
+<br><br><br>
+
+<div style="text-align: center;">
+  <img src="img/outdoor.png" class="hw-image" alt="Image description">
 </div>
 
 <br>
@@ -229,7 +235,7 @@ a:hover{
 <br>
 
 <h1 class="cvprSecTitle">Real Time Demo</h1>
-<h3 class="cvprSecBody">In the real time active stereo demo, the textureless objects are tracked by the SLM. Notice the depth quality difference when the laser is off versus on. Please see our code for our CUDA-accelerated hologram generator. The demo runs self-contained on an embedded NVIDIA Jetson Nano with a 256 core GPU. Past a certain number of hologram points it is faster to just do Fourier Holography instead of our Fresnel Holography, but our Fresnel approach has significant speed ups for sparse holograms.</h3>
+<h3 class="cvprSecBody">In this real time adaptive active stereo demo the textureless objects are detected  and then adaptively illuminated by the SLM. Notice the depth quality difference when the laser is off versus on. Please see our code for our CUDA-accelerated hologram generator. The demo runs self-contained on an embedded NVIDIA Jetson Nano with a 256 core GPU. Past a certain number of hologram points it is faster to just do Fourier Holography instead of our Fresnel Holography, but our Fresnel approach has significant speed ups for sparse holograms since the FFT runtime is constant for any number of dots and depends on the hologram size instead.</h3>
 
 <video width="100%" controls>
   <source src="img/combined.mp4" type="video/mp4">
