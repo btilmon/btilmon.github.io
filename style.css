@@ -135,20 +135,21 @@ video {
 
 .image-container {
   text-align: center;
+  
 }
 
 .image-container img {
   display: inline-block;
   border: 1px solid black;
-  width: 120px;
-  height: 144px;
+  width: 100px;
+  height: 120px;
   margin: 0 10px; /* adjust this for space between the images */
 }
 
 figure {
   display: inline-block;
   margin: 0;
-  text-align: center;
+  text-align: center;,k
 }
 
 figcaption {
