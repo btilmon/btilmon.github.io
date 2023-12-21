@@ -26,8 +26,8 @@ body {
 
 img {
   /* height: 100%; */
-  width: 100%;
-  object-fit: fill;
+  /* width: 100%;
+  object-fit: fill; */
 }
 
  /* Three image containers (use 25% for four, and 50% for two, etc) */
