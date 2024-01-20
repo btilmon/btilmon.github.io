@@ -254,6 +254,16 @@ h8 {
 
 }
 
+.centered {
+  text-align: center;
+}
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
 
     /*display: table;*/
@@ -263,7 +273,8 @@ h8 {
     margin-right:auto;
     /* padding-top: 20px; */
     /* padding-bottom: 0px; */
-    /*vertical-align: ;*/
+    /* vertical-align:ce */
+    
 
     color:black
 
