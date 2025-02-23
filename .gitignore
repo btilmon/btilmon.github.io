@@ -12,3 +12,13 @@
 # !.github/**
 
 # # If you have other Git-related directories you want to keep, unignore them as well
+
+about.html
+cv_Brevin_Tilmon.pdf
+indexOld.html
+pics.html
+img/website_pics/*
+img/profile_pics/*
+img/pics/*
+imgs/affiliations/*
+.vs/
