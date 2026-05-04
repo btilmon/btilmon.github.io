@@ -1,117 +1,110 @@
-<!doctype html> 
-<html lang="en"> 
-<head> 
-<meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title> Brevin Tilmon </title> 
-<meta name="HandheldFriendly" content="True"> 
-<meta name="MobileOptimized" content="320"> 
-<link rel="stylesheet" href="css/bootstrap.min.css"> 
-<link rel="stylesheet" href="css/style.css"> 
-</head> 
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brevin Tilmon - Work</title>
+  <meta name="description" content="Selected work from Brevin Tilmon in 3D reconstruction, computational imaging, computer graphics, and machine learning.">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-name" href="index.html">Brevin Tilmon</a>
+    <nav aria-label="Primary navigation">
+      <a aria-current="page" href="index.html">work</a>
+      <a href="blog.html">blog</a>
+      <a href="about.html">about</a>
+    </nav>
+  </header>
 
-<body> 
-<div id="home" class="container-fluid"> 
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">Work</h1>
+      <p>
+        I am a Staff Software Engineer at
+        <a href="https://quidient.com/quidient-technology/">Quidient</a>,
+        working on 3D reconstruction, computer graphics, and ML for the
+        Quidient Reality scene reconstruction engine. I completed my PhD at
+        the University of Florida in the
+        <a href="https://focus.ece.ufl.edu/">Florida Optics and Computational Sensor Lab</a>,
+        supervised by <a href="https://focus.ece.ufl.edu/team/">Sanjeev Koppal</a>.
+      </p>
+    </section>
 
-<div class="row"> 
-<h1>Brevin Tilmon</h1> 
-<a href="mailto:brevinjt@gmail.com">Email</a> /
-<a href="https://github.com/btilmon">GitHub</a> /
-<a href="https://scholar.google.com/citations?user=-bgfLW4AAAAJ&hl=en" target="_blank">Google Scholar</a>
-</div> 
+    <section class="entry-list" aria-label="Selected work">
+      <article class="entry">
+        <h2>Automotive Hail Reconstruction with Quidient Reality</h2>
+        <p>Millimeter-level inverse rendering of hail damage on specular car surfaces from smartphone video.</p>
+        <p class="entry-meta">2025 &middot; <a href="https://quidient.com/automotive-hail-reconstruction-with-quidient-reality/" target="_blank" rel="noopener">Quidient blog</a></p>
+      </article>
 
-<br>
-I am Staff Software Engineer at <a href="https://quidient.com/quidient-technology/">Quidient</a> working on 3D reconstruction, computer graphics, and ML for our Quidient Reality scene reconstruction engine. I obtained my PhD from the University of Florida in the <a href="https://focus.ece.ufl.edu/">Florida Optics and Computational Sensor Lab</a>, supervised by <a href="https://focus.ece.ufl.edu/team/">prof. Sanjeev Koppal</a>. 
+      <article class="entry">
+        <h2>apple-log2linear</h2>
+        <p>Custom implementation of Apple ProRes Log decoding for calibrated iPhone video.</p>
+        <p class="entry-meta">2025 &middot; <a href="https://radiancefields.com/apple-log2linear-convert-apple-prores-easily" target="_blank" rel="noopener">radiance fields</a> &middot; <a href="https://github.com/btilmon/apple-log2linear" target="_blank" rel="noopener">github</a></p>
+      </article>
 
-<hr> <div class="row"> 
-<!-- <h2> Projects </h2>  -->
+      <article class="entry">
+        <h2>Foveated Computational Imaging</h2>
+        <p>PhD dissertation on adaptive visual attention and foveated sensing.</p>
+        <p class="entry-meta">2023 &middot; <a href="pubs/dissertation.pdf" target="_blank" rel="noopener">paper</a></p>
+      </article>
 
-<ul> 
+      <article class="entry">
+        <h2>Energy Efficient Adaptive 3D Sensing</h2>
+        <p class="byline">Brevin Tilmon, Zhanghao Sun, Sanjeev Koppal, Yicheng Wu, Georgios Evangelidis, Ramzi Zahreddine, Gurunandan Krishnan, Sizhuo Ma, Jian Wang</p>
+        <p>Adaptive active depth sensing that jointly optimizes range, power consumption, and eye safety.</p>
+        <p class="entry-meta">CVPR 2023 &middot; <a href="pubs/CVPR_2023_Energy_Efficient_Adaptive_3D_Sensing.pdf" target="_blank" rel="noopener">paper</a> &middot; <a href="e3d.html">project page</a></p>
+      </article>
 
-<li> <span class="papertitle">Automotive Hail Reconstruction with Quidient Reality</span>
-<br> Millimeter-level inverse rendering of hail damage on specular car surfaces from smartphone video.
-<br> 
-2025 [<a href="https://quidient.com/automotive-hail-reconstruction-with-quidient-reality/" target="_blank">Quidient Blog</a>]
-</li>     
+      <article class="entry">
+        <h2>illumiGrad</h2>
+        <p>RGBD bundle adjustment in PyTorch.</p>
+        <p class="entry-meta">2021 &middot; <a href="https://github.com/btilmon/illumiGrad" target="_blank" rel="noopener">github</a></p>
+      </article>
 
-<li> <span class="papertitle">apple-log2linear</span>
-<br> Custom implementation of Apple ProRes Log decoding for calibrated iPhone video.
-<br> 
-2025 [<a href="https://radiancefields.com/apple-log2linear-convert-apple-prores-easily" target="_blank">radiance fields</a>]
-[<a href="https://github.com/btilmon/apple-log2linear" target="_blank">github</a>]
-</li> 
+      <article class="entry">
+        <h2>SaccadeCam: Adaptive Visual Attention for Monocular Depth Sensing</h2>
+        <p class="byline">Brevin Tilmon, Sanjeev Koppal</p>
+        <p>Adaptive monocular depth sensing inspired by visual attention.</p>
+        <p class="entry-meta">ICCV 2021 &middot; <a href="https://arxiv.org/abs/2103.12981" target="_blank" rel="noopener">paper</a> &middot; <a href="https://focus.ece.ufl.edu/saccadecam/" target="_blank" rel="noopener">project page</a></p>
+      </article>
 
-<li> <span class="papertitle">Foveated Computational Imaging</span>
-<br> PhD Dissertation, 2023
-[<a href="https://btilmon.github.io/pubs/dissertation.pdf" target="_blank">paper</a>]
-</li> 
+      <article class="entry">
+        <h2>FoveaCam: A MEMS Mirror Enabled Foveating Camera</h2>
+        <p class="byline">Brevin Tilmon, Eakta Jain, Silvia Ferrari, Sanjeev Koppal</p>
+        <p>A foveating camera system enabled by a fast MEMS mirror.</p>
+        <p class="entry-meta">TPAMI 2021 &middot; ICCP 2020 &middot; <a href="pubs/FoveaCam_PAMI.pdf" target="_blank" rel="noopener">paper</a> &middot; <a href="https://focus.ece.ufl.edu/foveating-cameras/" target="_blank" rel="noopener">project page</a></p>
+      </article>
 
+      <article class="entry">
+        <h2>Towards a MEMS-based Adaptive LIDAR</h2>
+        <p class="byline">Francesco Pittaluga, Zaid Tasneem, Justin Folden, Brevin Tilmon, Ayan Chakrabarti, Sanjeev Koppal</p>
+        <p>Adaptive LIDAR using MEMS-based scene-dependent scanning.</p>
+        <p class="entry-meta">3DV 2020 &middot; <a href="https://arxiv.org/pdf/2003.09545.pdf" target="_blank" rel="noopener">paper</a> &middot; <a href="https://www.francescopittaluga.com/adaptivelidar/index.html" target="_blank" rel="noopener">project page</a></p>
+      </article>
 
-<li> <span class="papertitle">Energy Efficient Adaptive 3D Sensing</span>
-<br> Brevin Tilmon, Zhanghao Sun, Sanjeev Koppal, Yicheng Wu, Georgios Evangelidis, Ramzi Zahreddine, Gurunandan Krishnan, Sizhuo Ma, Jian Wang
-<br> CVPR 2023
-[<a href="https://btilmon.github.io/pubs/CVPR_2023_Energy_Efficient_Adaptive_3D_Sensing.pdf" target="_blank">paper</a>]
-[<a href="https://btilmon.github.io/e3d.html" target="_blank">project page</a>]
-</li> 
+      <article class="entry">
+        <h2>Design and Calibration of a Fast Flying-Dot Projector for Dynamic Light Transport Acquisition</h2>
+        <p class="byline">Kristofer Henderson, Xiaomeng Liu, Justin Folden, Brevin Tilmon, Suren Jayasuriya, Sanjeev Koppal</p>
+        <p>A calibrated projector for dynamic light transport capture.</p>
+        <p class="entry-meta">Transactions on Computational Imaging 2020 &middot; <a href="pubs/tci20.pdf" target="_blank" rel="noopener">paper</a></p>
+      </article>
 
-<li> <span class="papertitle">illumiGrad</span>
-<br> RGBD bundle adjustment in PyTorch.
-<br> 
-2021 [<a href="https://github.com/btilmon/illumiGrad" target="_blank">github</a>]
-</li> 
+      <article class="entry">
+        <h2>Novel Approach of Wavelet Analysis for Nonlinear Ultrasonic Measurements and Fatigue Assessment of Jet Engine Components</h2>
+        <p class="byline">Gheorghe Bunget, Brevin Tilmon, Andrew Yee, Dylan Stewart, James Rogers, Matthew Webster, Kevin Farinholt, Fritz Friedersdorf, Marc Pepi, Anindya Ghoshal</p>
+        <p>Wavelet analysis for ultrasonic measurements and fatigue assessment.</p>
+        <p class="entry-meta">American Institute of Physics 2018 &middot; <a href="https://pubs.aip.org/aip/acp/article/1949/1/070003/819768/Novel-approach-of-wavelet-analysis-for-nonlinear" target="_blank" rel="noopener">paper</a></p>
+      </article>
+    </section>
+  </main>
 
-<li> <span class="papertitle">SaccadeCam: Adaptive Visual Attention for Monocular Depth Sensing</span>
-<br> Brevin Tilmon, Sanjeev Koppal
-<br> ICCV 2021
-[<a href="https://arxiv.org/abs/2103.12981" target="_blank">paper</a>]
-[<a href="https://focus.ece.ufl.edu/saccadecam/" target="_blank">project page</a>]
-</li> 
-
-<li> <span class="papertitle">FoveaCam: A MEMS Mirror Enabled Foveating Camera</span>
-<br> Brevin Tilmon, Eakta Jain, Silvia Ferrari, Sanjeev Koppal
-<br> TPAMI 2021, ICCP 2020 
-[<a href="https://btilmon.github.io/pubs/FoveaCam_PAMI.pdf" target="_blank">paper</a>]
-[<a href="https://focus.ece.ufl.edu/foveating-cameras/" target="_blank">project page</a>]
-</li> 
-
-<li> <span class="papertitle">Towards a MEMS-based Adaptive LIDAR</span>
-<br> Francesco Pittaluga, Zaid Tasneem, Justin Folden, Brevin Tilmon, Ayan Chakrabarti, Sanjeev Koppal
-<br> 3DV 2020
-[<a href="https://arxiv.org/pdf/2003.09545.pdf" target="_blank">paper</a>]
-[<a href="https://www.francescopittaluga.com/adaptivelidar/index.html" target="_blank">project page</a>]
-</li> 
-
-<li> <span class="papertitle">Design and Calibration of a Fast Flying-Dot Projector for Dynamic Light Transport Acquisition</span>
-<br> Kristofer Henderson, Xiaomeng Liu, Justin Folden, Brevin Tilmon, Suren Jayasuriya, Sanjeev Koppal
-<br> Transactions on Computational Imaging 2020
-[<a href="https://btilmon.github.io/pubs/tci20.pdf" target="_blank">paper</a>]
-</li> 
-
-
-<li> <span class="papertitle">Novel Approach of Wavelet Analysis for Nonlinear Ultrasonic Measurements and Fatigue Assessment of Jet Engine Components</span>
-<br> Gheorghe Bunget, Brevin Tilmon, Andrew Yee, Dylan Stewart, James Rogers, Matthew Webster, Kevin Farinholt, Fritz Friedersdorf, Marc Pepi, Anindya Ghoshal
-<br> American Institute of Physics 2018
-[<a href="https://pubs.aip.org/aip/acp/article/1949/1/070003/819768/Novel-approach-of-wavelet-analysis-for-nonlinear" target="_blank">paper</a>]
-</li> 
-
-<!-- <li> <span class="papertitle">IEEE SoutheastCon Hardware Competitions</span>
-<br> Competitive and fun undergraduate robotics competitions involving computer vision, embedded software and hardware, and 3D printing. We placed in the top 20% every year out of 50 schools.
-<br> 2015-2019 
-[<a href="https://photos.app.goo.gl/6z9p2Z9gpoGziKwDA" target="_blank">robot 1</a>] 
-[<a href="https://photos.app.goo.gl/WkkoW6fU5w1R6EP88" target="_blank">robot 2</a>]
-</li>  -->
-
-<br> 
-
-
-</ul> </div> 
-
-
-</div>
-</body> 
+  <footer class="site-footer">
+    <span>&copy; 2026 Brevin Tilmon</span>
+    <a href="mailto:brevinjt@gmail.com">email</a>
+    <a href="https://github.com/btilmon">github</a>
+    <a href="https://scholar.google.com/citations?user=-bgfLW4AAAAJ&hl=en" target="_blank" rel="noopener">scholar</a>
+  </footer>
+</body>
 </html>
-
-
-
-
-
-
